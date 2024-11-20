@@ -37,7 +37,6 @@ public class MainActivity extends AppCompatActivity implements ListFragment.OnIt
                 transaction.replace(R.id.fragment_detail_container, new JuliusCaesarFragment());
                 break;
         }
-
         transaction.commit();
     }
 }
